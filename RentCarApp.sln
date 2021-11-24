@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentCarApp.Core.Test", "RentCarApp.Core.Test\RentCarApp.Core.Test.csproj", "{9A66DFB5-3260-48BD-8E02-D428C330C07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookingApp.Core", "CarBookingApp.Core\CarBookingApp.Core.csproj", "{4E00DED4-BC12-4B8D-BB0F-B38D51378C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookingApp.Domain", "CarBookingApp.Domain\CarBookingApp.Domain.csproj", "{FF0DFBAC-C2D5-4DD1-A093-7196B26AB9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookingApp.Persistance", "CarBookingApp.Persistance\CarBookingApp.Persistance.csproj", "{524EC13A-D883-4536-A911-19A2CE8C9688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBooking.Persistance.Test", "CarBooking.Persistance.Test\CarBooking.Persistance.Test.csproj", "{E76B22CE-5B95-4C48-AD74-7750B4723B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBooking.WebApi", "CarBooking.WebApi\CarBooking.WebApi.csproj", "{BEDFAA0A-6BCE-48D1-A82A-4638495598FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBooking.Api.Test", "CarBooking.Api.Test\CarBooking.Api.Test.csproj", "{F1C77828-855B-4184-B14A-E22B9F41511C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A66DFB5-3260-48BD-8E02-D428C330C07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A66DFB5-3260-48BD-8E02-D428C330C07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A66DFB5-3260-48BD-8E02-D428C330C07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A66DFB5-3260-48BD-8E02-D428C330C07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E00DED4-BC12-4B8D-BB0F-B38D51378C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E00DED4-BC12-4B8D-BB0F-B38D51378C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E00DED4-BC12-4B8D-BB0F-B38D51378C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E00DED4-BC12-4B8D-BB0F-B38D51378C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0DFBAC-C2D5-4DD1-A093-7196B26AB9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0DFBAC-C2D5-4DD1-A093-7196B26AB9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0DFBAC-C2D5-4DD1-A093-7196B26AB9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0DFBAC-C2D5-4DD1-A093-7196B26AB9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524EC13A-D883-4536-A911-19A2CE8C9688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524EC13A-D883-4536-A911-19A2CE8C9688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524EC13A-D883-4536-A911-19A2CE8C9688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524EC13A-D883-4536-A911-19A2CE8C9688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76B22CE-5B95-4C48-AD74-7750B4723B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76B22CE-5B95-4C48-AD74-7750B4723B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76B22CE-5B95-4C48-AD74-7750B4723B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76B22CE-5B95-4C48-AD74-7750B4723B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDFAA0A-6BCE-48D1-A82A-4638495598FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDFAA0A-6BCE-48D1-A82A-4638495598FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDFAA0A-6BCE-48D1-A82A-4638495598FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDFAA0A-6BCE-48D1-A82A-4638495598FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C77828-855B-4184-B14A-E22B9F41511C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C77828-855B-4184-B14A-E22B9F41511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C77828-855B-4184-B14A-E22B9F41511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C77828-855B-4184-B14A-E22B9F41511C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15EC10F9-1916-49E0-860A-2E7501AEEF5D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <RootNamespace>RentCarApp.Core</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Shouldly" Version="4.0.3" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Shouldly" />
+    <None Remove="Moq" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarBookingApp.Core\CarBookingApp.Core.csproj" />
+  </ItemGroup>
+</Project>

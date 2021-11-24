@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarBookingApp.Core\CarBookingApp.Core.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\CarBookingApp.Persistance\CarBookingApp.Persistance.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.Data.Sqlite.Core" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+  <ItemGroup>
+       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+</Project>
